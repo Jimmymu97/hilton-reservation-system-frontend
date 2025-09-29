@@ -1,0 +1,34 @@
+{
+  "name": "hilton-restaurant-vue",
+  "version": "1.0.0",
+  "description": "Hilton Restaurant Booking System - Frontend",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "vue-cli-service serve --port 3000",
+    "build:prod": "vue-cli-service build --mode production",
+    "build:dev": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint",
+    "preview": "vue-cli-service serve --mode production --port 3000"
+  },
+  "dependencies": {
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2",
+    "axios": "^1.5.0",
+    "element-ui": "^2.15.14",
+    "dayjs": "^1.11.9",
+    "vue-meta": "^2.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "vue-template-compiler": "^2.7.14",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
